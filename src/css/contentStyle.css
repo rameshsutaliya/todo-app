@@ -1,0 +1,32 @@
+div{
+    justify-content: center;
+}
+p{
+    color: blueviolet;
+}
+.App-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: content-box;
+    text-align: center;
+    background-color: chocolate;
+    justify-content: center;
+}
+
+.App-Todo-List{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #cccccc;
+}
+.App-Task{
+    background-color: aquamarine;
+    width: 40%;
+    height:1%;
+    text-align: left;
+    margin-top: 10px;
+    border: sienna;
+    justify-content: space-around;
+}
